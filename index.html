@@ -290,6 +290,103 @@ main{padding-top:72px}
   .detail{min-height:260px}
 }
 
+
+/* Mobile refinement 2026 */
+@media (max-width: 920px){
+  html{scroll-padding-top:60px}
+  body{overflow-x:hidden}
+  .topbar{height:58px;padding:0 16px}
+  .brand{font-size:18px;letter-spacing:.13em;white-space:nowrap}
+  .brand small{display:none}
+  .tools{gap:5px}
+  .pill{font-size:7px;padding:8px 9px;letter-spacing:.1em}
+  main{padding-top:58px}
+  .hero{min-height:auto;display:block}
+  .hero-copy{min-height:48svh;padding:64px 22px 38px}
+  .hero h1{font-size:clamp(64px,22vw,112px);letter-spacing:.055em;line-height:.8}
+  .hero h1 small{font-size:8px;letter-spacing:.42em;margin-top:22px}
+  .hero-copy p{font-size:13px;line-height:1.7;max-width:92%;margin-top:36px}
+  .hero-media{padding:0 14px 14px}
+  .hero-frame{height:62svh;min-height:430px;border-radius:2px}
+  .hero-frame img{object-position:58% center}
+  .hero-tag{left:12px;right:12px;bottom:12px;font-size:7px;line-height:1.45}
+  .manifest{min-height:auto;padding:76px 22px;gap:48px}
+  .manifest h2{font-size:clamp(54px,16vw,82px);line-height:.94}
+  .manifest p{font-size:13px;line-height:1.75}
+  .manifest .meta{grid-template-columns:1fr;gap:22px}
+  .manifest .meta b{font-size:25px}
+  .editorial-strip{min-height:auto}
+  .editorial-strip .left{padding:64px 22px;min-height:420px}
+  .editorial-strip .quote{font-size:clamp(43px,13vw,66px)}
+  .editorial-strip .right{grid-template-columns:1fr 1fr}
+  .editorial-strip .stat{padding:26px 18px;min-height:150px}
+  .editorial-strip .stat b{font-size:29px}
+  .fullshot{min-height:78svh}
+  .fullshot img{height:78svh;min-height:560px}
+  #fachada img{object-position:57% center}
+  #unboxing img{object-position:58% center}
+  .overlay-copy{left:22px;right:22px;top:auto;bottom:54px}
+  .overlay-copy h2{font-size:clamp(48px,14vw,72px);line-height:.94}
+  .overlay-copy p{font-size:12px;line-height:1.65;max-width:90%}
+  .scrim{background:linear-gradient(0deg,rgba(24,10,10,.82) 0%,rgba(24,10,10,.34) 48%,rgba(24,10,10,.02) 78%)}
+  .split{display:flex;flex-direction:column;min-height:auto}
+  .split .text{padding:72px 22px 48px}
+  .split .text h2{font-size:clamp(51px,15vw,76px)}
+  .split .text p{font-size:13px}
+  .split .media{min-height:66svh;height:66svh}
+  .split .media img{height:100%;object-position:center}
+  .materials{padding:72px 14px}
+  .materials-head{padding:0 8px}
+  .materials-head h2{font-size:clamp(51px,15vw,76px)}
+  .materials-head p{font-size:13px}
+  .materials-grid{grid-template-columns:1fr;gap:14px;margin-top:34px}
+  .tile.large{min-height:62svh}
+  .tile.stack{gap:14px}
+  .tile.stack .mini{height:56svh;min-height:390px}
+  .tile img,.tile.stack img{object-position:center}
+  .label{left:12px;bottom:12px;font-size:7px}
+  .pull{padding:68px 14px}
+  .pull blockquote{font-size:clamp(40px,12vw,62px)}
+  .pull small{font-size:7px;line-height:1.6}
+  .detail-grid{margin-top:26px;gap:10px;background:transparent;border:0}
+  .detail{min-height:48svh;border:1px solid rgba(23,19,17,.08)}
+  .digital{padding:72px 14px}
+  .digital-head{padding:0 8px}
+  .digital h2{font-size:clamp(51px,15vw,76px)}
+  .digital p{font-size:13px}
+  .digital-media{margin-top:32px;padding:5px}
+  .digital-media img{min-height:48svh;object-fit:cover;object-position:center}
+  .digital-grid{grid-template-columns:1fr 1fr}
+  .digital-grid div{padding:17px 14px;min-height:125px}
+  .digital-grid b{font-size:22px}
+  .digital-grid span{font-size:9px}
+  .system{padding:72px 14px}
+  .system>h2,.system>.kicker{margin-left:8px;margin-right:8px}
+  .system h2{font-size:clamp(51px,15vw,76px)}
+  .system-card{padding:24px 18px}
+  .system-top{align-items:flex-start;gap:20px;flex-direction:column}
+  .system-logo{font-size:36px}
+  .swatches i{width:24px;height:24px}
+  .system-grid{grid-template-columns:1fr 1fr;gap:24px 16px}
+  .system-grid p{font-size:10px}
+  .final{min-height:88svh;padding:72px 22px}
+  .final .display{font-size:clamp(62px,20vw,100px);line-height:.9}
+  .final p{font-size:12px;max-width:92%}
+  .final .sign{font-size:32px}
+  .page{right:12px;bottom:10px;font-size:6px}
+}
+@media (max-width: 520px){
+  .tools .pill:first-child{display:none}
+  .hero-frame{height:58svh}
+  .editorial-strip .right{grid-template-columns:1fr}
+  .editorial-strip .stat{min-height:118px}
+  .digital-grid,.system-grid{grid-template-columns:1fr}
+  .digital-grid div{min-height:auto}
+}
+@media (hover:none){
+  .detail:hover img{transform:none}
+}
+
 </style>
 </head>
 <body>
